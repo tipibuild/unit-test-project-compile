@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/luclambour/.tipi/w/unit-test-project-compile-2e803a6/build/macos-cxx17/bin",
+  "command": "/Users/luclambour/.tipi/clang/a7e6968/bin/clang++ -DBOOST_ALL_NO_LIB=1 -I/Users/luclambour/.tipi/w/unit-test-project-compile-2e803a6/build/macos-cxx17/recipe/../../.. -std=c++17 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wall -Wno-unused-local-typedefs -Wno-unused-variable -std=c++17 -o CMakeFiles/main.dir/Users/luclambour/.tipi/w/unit-test-project-compile-2e803a6/main.cpp.o -c /Users/luclambour/.tipi/w/unit-test-project-compile-2e803a6/main.cpp",
+  "file": "/Users/luclambour/.tipi/w/unit-test-project-compile-2e803a6/main.cpp"
+}
+]

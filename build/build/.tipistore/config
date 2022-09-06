@@ -1,0 +1,7 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+	worktree = /Users/luclambour/.tipi/w/unit-test-project-compile-2e803a6
