@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin",
+  "command": "/root/.tipi/clang/4f846ee/bin/clang++ -DBOOST_ALL_NO_LIB=1 -I/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/recipe/../../.. -std=c++17 -g   -Wall -Wno-unused-local-typedefs -Wno-unused-variable -std=c++17 -o CMakeFiles/main.dir/root/.tipi/w/unit-test-project-compile-2e803a6/main.cpp.o -c /root/.tipi/w/unit-test-project-compile-2e803a6/main.cpp",
+  "file": "/root/.tipi/w/unit-test-project-compile-2e803a6/main.cpp"
+}
+]

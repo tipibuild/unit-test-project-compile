@@ -1,0 +1,391 @@
+The system is: Linux - 5.4.0-121-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /root/.tipi/clang/4f846ee/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/3.21.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /root/.tipi/clang/4f846ee/bin/clang++ 
+Build flags: -std=c++17
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/3.21.4/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_91f16/fast && /usr/bin/make  -f CMakeFiles/cmTC_91f16.dir/build.make CMakeFiles/cmTC_91f16.dir/build
+make[1]: Entering directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o
+/root/.tipi/clang/4f846ee/bin/clang -DBOOST_ALL_NO_LIB=1  -v -MD -MT CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang version 13.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/.tipi/clang/4f846ee/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/root/.tipi/clang/4f846ee/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -resource-dir /root/.tipi/clang/4f846ee/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -sys-header-deps -D BOOST_ALL_NO_LIB=1 -internal-isystem /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -x c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_91f16
+/root/.tipi/cmake/aa668b3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f16.dir/link.txt --verbose=1
+/root/.tipi/clang/4f846ee/bin/clang  -v CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -o cmTC_91f16 
+clang version 13.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/.tipi/clang/4f846ee/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_91f16 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/root/.tipi/clang/4f846ee/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/9/crtend.o /lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include] ==> [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_91f16/fast && /usr/bin/make  -f CMakeFiles/cmTC_91f16.dir/build.make CMakeFiles/cmTC_91f16.dir/build]
+  ignore line: [make[1]: Entering directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/root/.tipi/clang/4f846ee/bin/clang -DBOOST_ALL_NO_LIB=1  -v -MD -MT CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /root/.tipi/clang/4f846ee/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/root/.tipi/clang/4f846ee/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -resource-dir /root/.tipi/clang/4f846ee/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -sys-header-deps -D BOOST_ALL_NO_LIB=1 -internal-isystem /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -x c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_91f16]
+  ignore line: [/root/.tipi/cmake/aa668b3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f16.dir/link.txt --verbose=1]
+  ignore line: [/root/.tipi/clang/4f846ee/bin/clang  -v CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -o cmTC_91f16 ]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /root/.tipi/clang/4f846ee/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_91f16 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/root/.tipi/clang/4f846ee/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/9/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_91f16] ==> ignore
+    arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/root/.tipi/clang/4f846ee/bin/../lib] ==> dir [/root/.tipi/clang/4f846ee/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_91f16.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtend.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/root/.tipi/clang/4f846ee/bin/../lib] ==> [/root/.tipi/clang/4f846ee/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/root/.tipi/clang/4f846ee/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb6ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb6ff.dir/build.make CMakeFiles/cmTC_eb6ff.dir/build
+make[1]: Entering directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o
+/root/.tipi/clang/4f846ee/bin/clang++ -DBOOST_ALL_NO_LIB=1  -std=c++17    -v -std=c++17 -MD -MT CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang version 13.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/.tipi/clang/4f846ee/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/root/.tipi/clang/4f846ee/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -resource-dir /root/.tipi/clang/4f846ee/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D BOOST_ALL_NO_LIB=1 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward -internal-isystem /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -x c++ /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9
+ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9
+ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward
+ /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_eb6ff
+/root/.tipi/cmake/aa668b3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6ff.dir/link.txt --verbose=1
+/root/.tipi/clang/4f846ee/bin/clang++ -std=c++17   -v CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eb6ff 
+clang version 13.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/.tipi/clang/4f846ee/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eb6ff /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/root/.tipi/clang/4f846ee/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtend.o /lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward]
+    add: [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include] ==> [/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/root/.tipi/clang/4f846ee/lib/clang/13.0.0/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb6ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb6ff.dir/build.make CMakeFiles/cmTC_eb6ff.dir/build]
+  ignore line: [make[1]: Entering directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/root/.tipi/clang/4f846ee/bin/clang++ -DBOOST_ALL_NO_LIB=1  -std=c++17    -v -std=c++17 -MD -MT CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /root/.tipi/clang/4f846ee/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/root/.tipi/clang/4f846ee/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -resource-dir /root/.tipi/clang/4f846ee/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D BOOST_ALL_NO_LIB=1 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward -internal-isystem /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -x c++ /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward]
+  ignore line: [ /root/.tipi/clang/4f846ee/lib/clang/13.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_eb6ff]
+  ignore line: [/root/.tipi/cmake/aa668b3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6ff.dir/link.txt --verbose=1]
+  ignore line: [/root/.tipi/clang/4f846ee/bin/clang++ -std=c++17   -v CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eb6ff ]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /root/.tipi/clang/4f846ee/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eb6ff /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/root/.tipi/clang/4f846ee/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_eb6ff] ==> ignore
+    arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/root/.tipi/clang/4f846ee/bin/../lib] ==> dir [/root/.tipi/clang/4f846ee/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_eb6ff.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtend.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/root/.tipi/clang/4f846ee/bin/../lib] ==> [/root/.tipi/clang/4f846ee/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbegin.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/root/.tipi/clang/4f846ee/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f488/fast && /usr/bin/make  -f CMakeFiles/cmTC_7f488.dir/build.make CMakeFiles/cmTC_7f488.dir/build
+make[1]: Entering directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f488.dir/CheckIncludeFile.c.o
+/root/.tipi/clang/4f846ee/bin/clang -DBOOST_ALL_NO_LIB=1   -MD -MT CMakeFiles/cmTC_7f488.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7f488.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7f488.dir/CheckIncludeFile.c.o -c /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7f488
+/root/.tipi/cmake/aa668b3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f488.dir/link.txt --verbose=1
+/root/.tipi/clang/4f846ee/bin/clang CMakeFiles/cmTC_7f488.dir/CheckIncludeFile.c.o -o cmTC_7f488 
+make[1]: Leaving directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95927/fast && /usr/bin/make  -f CMakeFiles/cmTC_95927.dir/build.make CMakeFiles/cmTC_95927.dir/build
+make[1]: Entering directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95927.dir/CheckFunctionExists.c.o
+/root/.tipi/clang/4f846ee/bin/clang -DBOOST_ALL_NO_LIB=1  -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_95927.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_95927.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_95927.dir/CheckFunctionExists.c.o -c /root/.tipi/cmake/aa668b3/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95927
+/root/.tipi/cmake/aa668b3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95927.dir/link.txt --verbose=1
+/root/.tipi/clang/4f846ee/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_95927.dir/CheckFunctionExists.c.o -o cmTC_95927  -lpthread 
+make[1]: Leaving directory '/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/CMakeTmp'
+
+
+

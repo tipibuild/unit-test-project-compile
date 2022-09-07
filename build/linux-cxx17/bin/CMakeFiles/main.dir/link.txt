@@ -1,0 +1,1 @@
+/root/.tipi/clang/4f846ee/bin/clang++ -std=c++17 -g CMakeFiles/main.dir/root/.tipi/w/unit-test-project-compile-2e803a6/main.cpp.o -o main  -lpthread 

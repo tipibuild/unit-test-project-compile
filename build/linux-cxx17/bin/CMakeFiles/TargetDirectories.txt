@@ -1,0 +1,8 @@
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/install/strip.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/install/local.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/install.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/list_install_components.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/rebuild_cache.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/test.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/main.dir
+/root/.tipi/w/unit-test-project-compile-2e803a6/build/linux-cxx17/bin/CMakeFiles/edit_cache.dir
