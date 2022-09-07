@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin",
+  "command": "C:\\.tipi\\clang\\6f9b4e0\\bin\\clang++.exe -DBOOST_ALL_NO_LIB=1 -DBOOST_USE_WINDOWS_H -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0A00 -D__kernel_entry @CMakeFiles/main.dir/includes_CXX.rsp -std=c++17   -femulated-tls  -g   -Wall -Wno-unused-local-typedefs -Wno-unused-variable -std=c++17 -o CMakeFiles\\main.dir\\C_\\.tipi\\w\\unit-test-project-compile-2e803a6\\main.cpp.obj -c C:\\.tipi\\w\\unit-test-project-compile-2e803a6\\main.cpp",
+  "file": "C:/.tipi/w/unit-test-project-compile-2e803a6/main.cpp"
+}
+]

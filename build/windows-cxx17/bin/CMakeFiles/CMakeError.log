@@ -1,0 +1,64 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/.tipi/clang/6f9b4e0/bin/mingw32-make.exe -f Makefile cmTC_881a3/fast && C:/.tipi/clang/6f9b4e0/bin/mingw32-make.exe  -f CMakeFiles\cmTC_881a3.dir\build.make CMakeFiles/cmTC_881a3.dir/build
+mingw32-make[1]: Entering directory 'C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_881a3.dir/src.c.obj
+C:\.tipi\clang\6f9b4e0\bin\clang.exe -DBOOST_ALL_NO_LIB=1 -DBOOST_USE_WINDOWS_H -DCMAKE_HAVE_LIBC_PTHREAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0A00 -D__kernel_entry   -MD -MT CMakeFiles/cmTC_881a3.dir/src.c.obj -MF CMakeFiles\cmTC_881a3.dir\src.c.obj.d -o CMakeFiles\cmTC_881a3.dir\src.c.obj -c C:\.tipi\w\unit-test-project-compile-2e803a6\build\windows-cxx17\bin\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_881a3.exe
+C:\.tipi\cmake\78da891\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_881a3.dir\link.txt --verbose=1
+C:\.tipi\cmake\78da891\bin\cmake.exe -E rm -f CMakeFiles\cmTC_881a3.dir/objects.a
+C:\.tipi\clang\6f9b4e0\bin\llvm-ar.exe qc CMakeFiles\cmTC_881a3.dir/objects.a @CMakeFiles\cmTC_881a3.dir\objects1.rsp
+C:\.tipi\clang\6f9b4e0\bin\clang.exe -Wl,--whole-archive CMakeFiles\cmTC_881a3.dir/objects.a -Wl,--no-whole-archive -o cmTC_881a3.exe -Wl,--out-implib,libcmTC_881a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_881a3.dir\linklibs.rsp
+C:\.tipi\clang\6f9b4e0\bin\ld: CMakeFiles\cmTC_881a3.dir/objects.a(src.c.obj):src.c:(.text+0x2a): undefined reference to `pthread_create'
+C:\.tipi\clang\6f9b4e0\bin\ld: CMakeFiles\cmTC_881a3.dir/objects.a(src.c.obj):src.c:(.text+0x33): undefined reference to `pthread_detach'
+C:\.tipi\clang\6f9b4e0\bin\ld: CMakeFiles\cmTC_881a3.dir/objects.a(src.c.obj):src.c:(.text+0x3c): undefined reference to `pthread_cancel'
+C:\.tipi\clang\6f9b4e0\bin\ld: CMakeFiles\cmTC_881a3.dir/objects.a(src.c.obj):src.c:(.text+0x49): undefined reference to `pthread_join'
+C:\.tipi\clang\6f9b4e0\bin\ld: CMakeFiles\cmTC_881a3.dir/objects.a(src.c.obj):src.c:(.text+0x52): undefined reference to `pthread_exit'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make[1]: *** [CMakeFiles\cmTC_881a3.dir\build.make:101: cmTC_881a3.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_881a3/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/.tipi/clang/6f9b4e0/bin/mingw32-make.exe -f Makefile cmTC_706aa/fast && C:/.tipi/clang/6f9b4e0/bin/mingw32-make.exe  -f CMakeFiles\cmTC_706aa.dir\build.make CMakeFiles/cmTC_706aa.dir/build
+mingw32-make[1]: Entering directory 'C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_706aa.dir/CheckFunctionExists.c.obj
+C:\.tipi\clang\6f9b4e0\bin\clang.exe -DBOOST_ALL_NO_LIB=1 -DBOOST_USE_WINDOWS_H -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0A00 -D__kernel_entry  -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_706aa.dir/CheckFunctionExists.c.obj -MF CMakeFiles\cmTC_706aa.dir\CheckFunctionExists.c.obj.d -o CMakeFiles\cmTC_706aa.dir\CheckFunctionExists.c.obj -c C:\.tipi\cmake\78da891\share\cmake-3.21\Modules\CheckFunctionExists.c
+Linking C executable cmTC_706aa.exe
+C:\.tipi\cmake\78da891\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_706aa.dir\link.txt --verbose=1
+C:\.tipi\cmake\78da891\bin\cmake.exe -E rm -f CMakeFiles\cmTC_706aa.dir/objects.a
+C:\.tipi\clang\6f9b4e0\bin\llvm-ar.exe qc CMakeFiles\cmTC_706aa.dir/objects.a @CMakeFiles\cmTC_706aa.dir\objects1.rsp
+C:\.tipi\clang\6f9b4e0\bin\clang.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\cmTC_706aa.dir/objects.a -Wl,--no-whole-archive -o cmTC_706aa.exe -Wl,--out-implib,libcmTC_706aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_706aa.dir\linklibs.rsp
+C:\.tipi\clang\6f9b4e0\bin\ld: cannot find -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make[1]: *** [CMakeFiles\cmTC_706aa.dir\build.make:101: cmTC_706aa.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_706aa/fast] Error 2
+
+
+

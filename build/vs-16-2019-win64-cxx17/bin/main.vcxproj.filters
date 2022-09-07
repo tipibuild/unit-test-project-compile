@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\.tipi\w\unit-test-project-compile-2e803a6\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\.tipi\w\unit-test-project-compile-2e803a6\build\vs-16-2019-win64-cxx17\recipe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1D412381-0684-3E59-BC80-EE70397DAB65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

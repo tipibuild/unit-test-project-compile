@@ -1,0 +1,10 @@
+^C:\.TIPI\W\UNIT-TEST-PROJECT-COMPILE-2E803A6\BUILD\VS-16-2019-WIN64-CXX17\BIN\CMAKEFILES\5B85F3AAF9524BA22AAE6CDDF9726582\GENERATE.STAMP.RULE
+setlocal
+C:\.tipi\cmake\78da891\bin\cmake.exe -SC:/.tipi/w/unit-test-project-compile-2e803a6/build/vs-16-2019-win64-cxx17/recipe -BC:/.tipi/w/unit-test-project-compile-2e803a6/build/vs-16-2019-win64-cxx17/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/.tipi/w/unit-test-project-compile-2e803a6/build/vs-16-2019-win64-cxx17/bin/unit-test-project-compile-2e803a6_unit-test-project-compile-2e803a6.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

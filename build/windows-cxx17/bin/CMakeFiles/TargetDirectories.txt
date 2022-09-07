@@ -1,0 +1,8 @@
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/list_install_components.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/install.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/install/local.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/main.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/edit_cache.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/rebuild_cache.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/test.dir
+C:/.tipi/w/unit-test-project-compile-2e803a6/build/windows-cxx17/bin/CMakeFiles/install/strip.dir
